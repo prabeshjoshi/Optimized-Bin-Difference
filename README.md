@@ -22,7 +22,7 @@ The GA searches for the region pairs (bands) that produce the most predictive an
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/ga-obd-plsr.git
+git clone https://github.com/prabeshjoshi/Optimized-Bin-Difference.git
 cd ga-obd-plsr
 pip install -e .
 ```
