@@ -64,8 +64,14 @@ model.fit(X, y, wl)
 
 print(model.summary())
 
+# Transform training spectra to OBD features
+X_feats = model.transform(X)
+
 # Transform new spectra to OBD features
-X_feats = model.transform(X_new)
+#X_feats = model.transform(X_new) # uncomment as needed
+
+
+
 
 # Cross-validated metrics
 metrics = model.score_cv(X, y)
