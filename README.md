@@ -27,7 +27,7 @@ cd ga-obd-plsr
 pip install -e .
 ```
 
-Or install directly (once published to PyPI):
+Or install directly (not published to PyPI yet):
 
 ```bash
 pip install ga-obd-plsr
