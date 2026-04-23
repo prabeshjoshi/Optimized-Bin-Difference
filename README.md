@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GA-OBD-PLSR
 
 **Genetic Algorithm — Optical Band Difference feature selection for PLS Regression**
@@ -187,3 +188,7 @@ If you use this package in published research, please cite:
 ## License
 
 MIT
+=======
+# Optimized-Bin-Difference-for-Chemometric-modeling
+This repository contains python implementation of Optimized Bin Difference method for chemometric modeling with spectral data. The core idea is that Genetic Algorithm selects bins, their width such that the difference of the average of bins (contiguous features) becomes new features for PLSR model.
+>>>>>>> 02f94069047942d47a8c7b4afcc04aabfd621fbb
