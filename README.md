@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# GA-OBD-PLSR
+# Optimized bin difference
 
 **Genetic Algorithm — Optical Band Difference feature selection for PLS Regression**
 
@@ -22,16 +22,24 @@ The GA searches for the region pairs (bands) that produce the most predictive an
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/ga-obd-plsr.git
+git clone https://github.com/prabeshjoshi/Optimized-Bin-Difference.git
 cd ga-obd-plsr
 pip install -e .
 ```
 
-Or install directly (once published to PyPI):
+Or install directly (not published to PyPI yet):
 
 ```bash
 pip install ga-obd-plsr
 ```
+Or To run in colab:
+
+```bash
+!git clone https://github.com/prabeshjoshi/Optimized-Bin-Difference.git
+%cd Optimized-Bin-Difference
+!pip install -e .
+```
+
 
 ---
 
@@ -56,8 +64,14 @@ model.fit(X, y, wl)
 
 print(model.summary())
 
+# Transform training spectra to OBD features
+X_feats = model.transform(X)
+
 # Transform new spectra to OBD features
-X_feats = model.transform(X_new)
+#X_feats = model.transform(X_new) # uncomment as needed
+
+
+
 
 # Cross-validated metrics
 metrics = model.score_cv(X, y)
