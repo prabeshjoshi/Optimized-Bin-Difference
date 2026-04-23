@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Optimized bin difference
 
 **Genetic Algorithm — Optical Band Difference feature selection for PLS Regression**
