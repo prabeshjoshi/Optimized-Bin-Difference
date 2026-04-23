@@ -32,6 +32,14 @@ Or install directly (not published to PyPI yet):
 ```bash
 pip install ga-obd-plsr
 ```
+Or To run in colab:
+
+```bash
+!git clone https://github.com/prabeshjoshi/Optimized-Bin-Difference.git
+%cd Optimized-Bin-Difference
+!pip install -e .
+```
+
 
 ---
 
