@@ -1,9 +1,9 @@
 
 # Optimized bin difference
 
-**Genetic Algorithm — Optical Band Difference feature selection for PLS Regression**
+**Genetic Algorithm — Optimized Bin Difference feature selection for PLS Regression**
 
-A Python package for selecting interpretable spectral features from NIR data. The GA evolves **Optical Band Difference (OBD)** features — contrast signals defined as the difference between the mean absorbance of two spectral regions — and optimises them for PLS regression via cross-validated RMSE.
+A Python package for selecting interpretable spectral features from NIR data. The GA evolves **Optimized Bin Difference (OBD)** features — contrast signals defined as the difference between the mean absorbance of two spectral regions — and optimises them for PLS regression via cross-validated RMSE.
 
 ---
 
